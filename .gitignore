@@ -35,3 +35,66 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# -------------------
+# AWS credentials (VERY IMPORTANT)
+# -------------------
+.aws/
+**/.aws/*
+credentials
+config
+
+# -------------------
+# Terraform
+# -------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# -------------------
+# CloudFormation / SAM
+# -------------------
+.aws-sam/
+packaged.yaml
+samconfig.toml
+
+# -------------------
+# Elastic Beanstalk
+# -------------------
+.elasticbeanstalk/
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# -------------------
+# Lambda build artifacts
+# -------------------
+*.zip
+dist/
+build/
+node_modules/
+__pycache__/
+*.pyc
+
+# -------------------
+# Logs
+# -------------------
+*.log
+
+# -------------------
+# OS files
+# -------------------
+.DS_Store
+Thumbs.db
+
+# -------------------
+# IDE / Editor
+# -------------------
+.vscode/
+.idea/
+
+# -------------------
+# Environment variables
+# -------------------
+.env
+.env.*
