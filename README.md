@@ -1,5 +1,5 @@
 # Demo-2-tier-application
-. In this challenge, we need to deploy a 2-tier architecture on AWS using Terraform custom modules which should be highly available and scalable.To achieve that, we will use the following list of services of AWS. 
+# In this challenge, we need to deploy a 2-tier architecture on AWS using Terraform custom modules which should be highly available and scalable.To achieve that, we will use the following list of services of AWS. 
 
 📃 list of services
 Amazon Certificate Manager (SSL)
